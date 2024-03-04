@@ -17,3 +17,22 @@ C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Mode
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Models.pdb
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.CopyComplete
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\BilbasenKonsol.exe
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\BilbasenKonsol.deps.json
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\BilbasenKonsol.runtimeconfig.json
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfoInputs.cache
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfo.cs
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.csproj.CoreCompileInputs.cache
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.sourcelink.json
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\Bilbasen.05310A7B.Up2Date
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\refint\BilbasenKonsol.dll
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\BilbasenKonsol.genruntimeconfig.cache
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\obj\Debug\net8.0\ref\BilbasenKonsol.dll
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\Class_Domain_Models.dll
+C:\Users\ricob\OneDrive\Dokumenter\GitHub\bilbasenkonsol-StineDk\bin\Debug\net8.0\Class_Domain_Models.pdb

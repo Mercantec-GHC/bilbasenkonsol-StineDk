@@ -1,12 +1,15 @@
 ﻿using Class_Domain_Models;
-using System.Security.Cryptography.X509Certificates;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BilbasenKonsol
 {
-    internal class Program
+    public class Database()
     {
-        //Eksempel med rigtige biler, lavet af ChatGPT ud fra jeres standart klasse
-        public static List<Gasoline_DieselCars> Gasoline_DieselCars = new List<Gasoline_DieselCars>()
+        public List<Gasoline_DieselCars> CarsList = new List<Gasoline_DieselCars>()
         {
             new Gasoline_DieselCars("Ford", "Mustang", 1963, "Red", 430, 8),
             new Gasoline_DieselCars("Toyota", "Camry", 2020, "Blue", 200, 4),
@@ -93,128 +96,22 @@ namespace BilbasenKonsol
             new Gasoline_DieselCars("Ford", "GT", 2019, "Blue", 647, 8),
             new Gasoline_DieselCars("Toyota", "86", 2016, "White", 205, 4),
             new Gasoline_DieselCars("Chevrolet", "Volt", 2020, "Black", 149, 4),
+            new Gasoline_DieselCars("Honda", "Clarity Electric", 2018, "Silver", 161, 0),
+            new Gasoline_DieselCars("BMW", "i3", 2019, "Blue", 168, 0),
+            new Gasoline_DieselCars("Mercedes-Benz", "EQC", 2022, "Gray", 402, 0),
+            new Gasoline_DieselCars("Audi", "E-Tron", 2021, "Red", 355, 0),
+            new Gasoline_DieselCars("Nissan", "Leaf", 2017, "Black", 147, 0),
+            new Gasoline_DieselCars("Volkswagen", "ID.4", 2020, "White", 201, 0),
+            new Gasoline_DieselCars("Hyundai", "Kona Electric", 2019, "Gray", 201, 0),
+            new Gasoline_DieselCars("Ford", "Mustang Mach-E", 2023, "Blue", 480, 0),
+            new Gasoline_DieselCars("Toyota", "RAV4 EV", 2014, "Red", 154, 0),
+            new Gasoline_DieselCars("Chevrolet", "Bolt EV", 2021, "Black", 200, 0),
             new Gasoline_DieselCars("Ford", "Mustang", 1985, "Blue", 210, 8),
             new Gasoline_DieselCars("Toyota", "Supra", 1988, "Red", 230, 6),
             new Gasoline_DieselCars("Chevrolet", "Camaro", 1992, "Black", 275, 8),
             new Gasoline_DieselCars("Honda", "NSX", 1991, "Silver", 270, 6),
             new Gasoline_DieselCars("BMW", "M3", 1987, "White", 215, 4),
-            new Gasoline_DieselCars("Mercedes-Benz", "190E", 1993, "Gray", 147, 4)
+            new Gasoline_DieselCars("Mercedes-Benz", "190E", 1993, "Gray", 147, 4),
         };
-        public static List<ElectricCars> ElectricCars = new List<ElectricCars>()
-        {
-            new ElectricCars("Honda", "Clarity Electric", 2018, "Silver", 161, 0),
-            new ElectricCars("BMW", "i3", 2019, "Blue", 168, 0),
-            new ElectricCars("Mercedes-Benz", "EQC", 2022, "Gray", 402, 0),
-            new ElectricCars("Audi", "E-Tron", 2021, "Red", 355, 0),
-            new ElectricCars("Nissan", "Leaf", 2017, "Black", 147, 0),
-            new ElectricCars("Volkswagen", "ID.4", 2020, "White", 201, 0),
-            new ElectricCars("Hyundai", "Kona Electric", 2019, "Gray", 201, 0),
-            new ElectricCars("Ford", "Mustang Mach-E", 2023, "Blue", 480, 0),
-            new ElectricCars("Toyota", "RAV4 EV", 2014, "Red", 154, 0),
-            new ElectricCars("Chevrolet", "Bolt EV", 2021, "Black", 200, 0)
-        };
-        public static void Main()
-        {
-            Console.Clear();
-            Console.WriteLine("Do you want\n1. Electric\n2. Gasoline or Diesel");
-            string choice = Console.ReadLine();
-            switch (choice)
-            {
-                case "1":
-
-                    break;
-            }
-            Console.WriteLine("Which menu do you want to use?\n1. Show all cars with the same brand as the first car in the database.\n2. Show all cars with 200 or more HK.\n3. Show all red cars.");
-            Console.WriteLine("4. Show amount of cars with the same brand as the first car in the database.\n5. Show cars from 1980 - 1999.");
-            choice = Console.ReadLine();
-            switch (choice)
-            {
-                case "1":
-                    FirstBrandInDatabase(Gasoline_DieselCars);
-                    Console.WriteLine("Press Enter to continue.");
-                    Console.Read();
-                    break;
-                case "2":
-                    MoreThen200HK(Gasoline_DieselCars);
-                    Console.WriteLine("Press Enter to continue.");
-                    Console.Read();
-                    break;
-                case "3":
-                    RedCars(Gasoline_DieselCars);
-                    Console.WriteLine("Press Enter to continue.");
-                    Console.Read();
-                    break;
-                case "4":
-                    AmountOfCarsWithTheFirstBrandInTheDatabase(Gasoline_DieselCars);
-                    Console.WriteLine("Press Enter to continue.");
-                    Console.Read();
-                    break;
-                case "5":
-                    CarsFrom80_99(Gasoline_DieselCars);
-                    Console.WriteLine("Press Enter to continue.");
-                    Console.Read();
-                    break;
-                default:
-                    Main();
-                    break;
-            }
-            Main();
-        }   
-        public static void FirstBrandInDatabase(List<Gasoline_DieselCars> list)
-        {
-            Console.WriteLine($"\nCars matching the Brand 'Ford':");
-            foreach (Gasoline_DieselCars car in list)
-            {
-                if (car.Brand == "Ford")
-                {
-                    Console.WriteLine($"Brand: {car.Brand}. Model: {car.Model}. Year: {car.Year}. Color: {car.Color}. HorsePower: {car.HorsePower}. Number of cylinders: {car.NumberOfCylinders}.\n");
-                }
-            }
-        }
-        public static void MoreThen200HK(List<Gasoline_DieselCars> list)
-        {
-            Console.WriteLine("\nCars with more then 200 HK:");
-            foreach (Gasoline_DieselCars car in list)
-            {
-                if (car.HorsePower >= 200)
-                {
-                    Console.WriteLine($"Brand: {car.Brand}. Model: {car.Model}. Year: {car.Year}. Color: {car.Color}. HorsePower: {car.HorsePower}. Number of cylinders: {car.NumberOfCylinders}.\n");
-                }
-            }
-        }
-        public static void RedCars(List<Gasoline_DieselCars> list)
-        {
-            Console.WriteLine("\nCars that are red:");
-            foreach (Gasoline_DieselCars car in list)
-            {
-                if (car.Color == "Red")
-                {
-                    Console.WriteLine($"Brand: {car.Brand}. Model: {car.Model}. Year: {car.Year}. Color: {car.Color}. HorsePower: {car.HorsePower}. Number of cylinders: {car.NumberOfCylinders}.\n");
-                }
-            }
-        }
-        public static void AmountOfCarsWithTheFirstBrandInTheDatabase(List<Gasoline_DieselCars> list)
-        {
-            int carAmount = 0;
-            foreach (Gasoline_DieselCars car in list)
-            {
-                if (car.Brand == "Ford")
-                {
-                    carAmount++;
-                }
-            }
-            Console.WriteLine($"Amount of cars of the brand 'Ford': {carAmount}.\n");
-        }
-        public static void CarsFrom80_99(List<Gasoline_DieselCars> list)
-        {
-            Console.WriteLine("Cars from 1980 - 1999.");
-            foreach (Gasoline_DieselCars car in list)
-            {
-                if (car.Year >= 1980 && car.Year <= 1999)
-                {
-                    Console.WriteLine($"Brand: {car.Brand}. Model: {car.Model}. Year: {car.Year}. Color: {car.Color}. HorsePower: {car.HorsePower}. Number of cylinders: {car.NumberOfCylinders}.\n");
-                }
-            }
-        }
     }
 }

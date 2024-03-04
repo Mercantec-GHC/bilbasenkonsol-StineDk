@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilbasenKonsol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f25497bb3afdd04c1b782ddd7ad70b6d05553d56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84efcb597b99199a12c4f5a3a4f8b0194fb09e0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilbasenKonsol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilbasenKonsol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
