@@ -7,7 +7,7 @@ namespace BilbasenKonsol
     internal class Program
     {
         //Eksempel med rigtige biler, lavet af ChatGPT ud fra jeres standart klasse
-        public static List<Car> Gasoline_DieselCars = new List<Car>()
+        private static List<Car> Gasoline_DieselCars = new List<Car>()
         {
             new Car("Ford", "Mustang", 1963, "Red", 430, "Benzin"),
             new Car("Toyota", "Camry", 2020, "Blue", 200, "Benzin"),
@@ -130,7 +130,7 @@ namespace BilbasenKonsol
                     break;
             }
         }   
-        public static void SearchMenu(List<Car> list)
+        public static void SearchMenu(List<Car> list = null,)
         {
             Console.WriteLine("Which menu do you want to use?\n1. Show all cars with the same brand as the first car in the database.\n2. Show all cars with 200 or more HK.\n3. Show all red cars.");
             Console.WriteLine("4. Show amount of cars with the same brand as the first car in the database.\n5. Show cars from 1980 - 1999.");

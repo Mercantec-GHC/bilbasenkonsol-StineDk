@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64EB70B9-9792-4624-B3FE-33CA1A8D556B}|..\\ClassLibrary1\\Class_Domain_Models.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\classlibrary1\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64EB70B9-9792-4624-B3FE-33CA1A8D556B}|..\\ClassLibrary1\\Class_Domain_Models.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\classlibrary1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,7 +31,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\bilbasenkonsol-StineDk\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwIQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T09:42:42.771Z",
               "EditorCaption": ""
@@ -39,12 +39,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cars.cs",
-              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\ClassLibrary1\\Cars.cs",
-              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Cars.cs",
-              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\ClassLibrary1\\Cars.cs",
-              "RelativeToolTip": "..\\ClassLibrary1\\Cars.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAABAAAA",
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\ClassLibrary1\\Car.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Car.cs",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\ClassLibrary1\\Car.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Car.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T09:45:38.514Z",
               "EditorCaption": ""
