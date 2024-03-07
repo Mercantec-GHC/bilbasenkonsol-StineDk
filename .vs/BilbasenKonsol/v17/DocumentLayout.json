@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\bilbasenkonsol-StineDk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\bilbasenkonsol-stinedk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64EB70B9-9792-4624-B3FE-33CA1A8D556B}|..\\ClassLibrary1\\Class_Domain_Models.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\classlibrary1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64EB70B9-9792-4624-B3FE-33CA1A8D556B}|..\\ClassLibrary1\\Class_Domain_Models.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\classlibrary1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\bilbasenkonsol-stinedk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,20 +25,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\bilbasenkonsol-StineDk\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\bilbasenkonsol-StineDk\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAAwIQAAAA8AAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAYwJwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T09:42:42.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\ClassLibrary1\\Car.cs",
               "RelativeDocumentMoniker": "..\\ClassLibrary1\\Car.cs",

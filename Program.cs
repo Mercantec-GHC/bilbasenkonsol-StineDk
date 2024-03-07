@@ -130,7 +130,7 @@ namespace BilbasenKonsol
                     break;
             }
         }   
-        public static void SearchMenu(List<Car> list = null,)
+        public static void SearchMenu(List<Car> list)
         {
             Console.WriteLine("Which menu do you want to use?\n1. Show all cars with the same brand as the first car in the database.\n2. Show all cars with 200 or more HK.\n3. Show all red cars.");
             Console.WriteLine("4. Show amount of cars with the same brand as the first car in the database.\n5. Show cars from 1980 - 1999.");
